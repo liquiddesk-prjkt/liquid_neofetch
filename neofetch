@@ -6116,6 +6116,42 @@ ${c1}           ``--:::::::-.`
 EOF
         ;;
 
+
+    *"LiquidOS"*)
+        set_colors 4 6 6 1
+        read -rd '' ascii_data <<'EOF'
+${c1}                           x.
+                          kKK:
+                        ;0Kd0Kk.
+                       oK0l,;xKK;
+                      OKO:,,,,oKK;
+                     kKx;,,,,,,cOKo
+                   ;0KKd,,,,,,,:kKKk.
+                 .kK0lOKk:,,,,l0KodKKl
+                ;KKx;,;dK0l,;xK0l,,cOKk
+               oKOl,,,,,c0Kx0Kx;,,,,;dKO.
+             .kKx;,,,,,,,;xK0l,,,,,,,,c0K:
+            .KKKkc,,,,,,,,cKk,,,,,,,,;dKKKk
+           oKKolkKko;,,,,,cKk,,,,,,cx00dcOK0.
+          kKOc,,,cx00d;,,,cKk,,,,lkKOo;,,;dKK,
+        .OKd;,,,,,,;o00d:,cKk,;lkKxc,,,,,,,cOKo
+       lK0c,,,,,,,,,,;oOKkdKOd0Kkc,,,,,,,,,,;xKk.
+     .kKKk:,,,,,,,,,,,,;lkKKKOd:,,,,,,,,,,,,:xKKKl
+    :KKdlkKkl;,,,,,,,,,,,,:dl;,,,,,,,,,,,:okKklcOKk
+   :K0l,,,oOKOo;,,,,,,,,,,,,,,,,,,,,,,,:xKKxc,,,;kKO
+  oKk:,,,,,;lx0Oo;,,,,,,,,,,,,,,,,,,;lx0ko:,,,,,,,oK0.
+.0Kk,,,,,,,,,,;d00xl;,,,,,,,,,,,,,lx00xc,,,,,,,,,,,lKKo
+   Oxdlc:;,,,,,,;lx00d:,,,,,,,,;oOKkl;,,,,,,,,;:lodOc
+      kKK0kxdolc:;;;lkKOdc;,;lxK0d:,,;:clodxkOKKK,
+         ,KKOkxkO00OOkOKKK0x0KK0xxkOO00OkxO0Kx
+             OOo:;::clloooxK0dooolcc:;:lx0;
+               'KOdc,,,,,,cKk,,,,,,;lx0l
+                   xOdc,,,cKk,,,;ok0'
+                      c0xolKOcdk0
+                          kKK'
+                           :
+EOF
+    ;;
         "ArchMerge"*)
             set_colors 6 6 7 1
             read -rd '' ascii_data <<'EOF'
