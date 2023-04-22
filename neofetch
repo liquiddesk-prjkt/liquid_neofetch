@@ -6117,8 +6117,8 @@ EOF
         ;;
 
 
-    *"LiquidOS"*)
-        set_colors 4 6 6 1
+    *"Liquid"*)
+        set_colors 6 4 4 1
         read -rd '' ascii_data <<'EOF'
 ${c1}                           x.
                           kKK:
