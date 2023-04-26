@@ -6118,38 +6118,31 @@ EOF
 
 
     *"Liquid"*)
-        set_colors 6 4 4 1
+        set_colors 4 0 0 4
         read -rd '' ascii_data <<'EOF'
-${c1}                           x.
-                          kKK:
-                        ;0Kd0Kk.
-                       oK0l,;xKK;
-                      OKO:,,,,oKK;
-                     kKx;,,,,,,cOKo
-                   ;0KKd,,,,,,,:kKKk.
-                 .kK0lOKk:,,,,l0KodKKl
-                ;KKx;,;dK0l,;xK0l,,cOKk
-               oKOl,,,,,c0Kx0Kx;,,,,;dKO.
-             .kKx;,,,,,,,;xK0l,,,,,,,,c0K:
-            .KKKkc,,,,,,,,cKk,,,,,,,,;dKKKk
-           oKKolkKko;,,,,,cKk,,,,,,cx00dcOK0.
-          kKOc,,,cx00d;,,,cKk,,,,lkKOo;,,;dKK,
-        .OKd;,,,,,,;o00d:,cKk,;lkKxc,,,,,,,cOKo
-       lK0c,,,,,,,,,,;oOKkdKOd0Kkc,,,,,,,,,,;xKk.
-     .kKKk:,,,,,,,,,,,,;lkKKKOd:,,,,,,,,,,,,:xKKKl
-    :KKdlkKkl;,,,,,,,,,,,,:dl;,,,,,,,,,,,:okKklcOKk
-   :K0l,,,oOKOo;,,,,,,,,,,,,,,,,,,,,,,,:xKKxc,,,;kKO
-  oKk:,,,,,;lx0Oo;,,,,,,,,,,,,,,,,,,;lx0ko:,,,,,,,oK0.
-.0Kk,,,,,,,,,,;d00xl;,,,,,,,,,,,,,lx00xc,,,,,,,,,,,lKKo
-   Oxdlc:;,,,,,,;lx00d:,,,,,,,,;oOKkl;,,,,,,,,;:lodOc
-      kKK0kxdolc:;;;lkKOdc;,;lxK0d:,,;:clodxkOKKK,
-         ,KKOkxkO00OOkOKKK0x0KK0xxkOO00OkxO0Kx
-             OOo:;::clloooxK0dooolcc:;:lx0;
-               'KOdc,,,,,,cKk,,,,,,;lx0l
-                   xOdc,,,cKk,,,;ok0'
-                      c0xolKOcdk0
-                          kKK'
-                           :
+${c1}                   cO
+${c1}                  cKKk
+${c1}                 x0l${c2}:${c1}k0.
+${c1}                OO${c2}:,,,${c1}dKc
+${c1}              .00${c2};,,,,,${c1}dKd
+${c1}             lKxKd${c2},,,,${c1}c0k0k
+${c1}            k0c${c2},${c1}c0k${c2};,${c1}oKd${c2},;${c1}k0.
+${c1}          .0k${c2}:,,,:${c1}OOk0l${c2},,,,${c1}dKl
+${c1}         cK0${c2}:,,,,,;${c1}0Kc${c2},,,,,;${c1}kKx
+${c1}        oKod0d${c2}:,,,,${c1}OK${c2}:,,,;${c1}o0kl0O
+${c1}       x0c${c2},,:${c1}dOxc${c2},,${c1}OK${c2}:,;${c1}dOxc${c2},,;${c1}k0,
+${c1}     .0k${c2};,,,,,;${c1}o0xcOKcd0x${c2}:,,,,,,${c1}dKc
+${c1}    cK0c${c2},,,,,,,,;${c1}oOKK0d${c2}:,,,,,,,,:${c1}OKx
+${c1}   dKld0xc${c2},,,,,,,,,${c1}lo${c2};,,,,,,,,${c1}lkOocOO.
+${c1}  k0c${c2},,;${c1}d0kc${c2},,,,,,,,,,,,,,,;${c1}oOkl${c2};,,;${c1}k0'
+${c1}'0k${c2};,,,,,;${c1}lkko${c2};,,,,,,,,,,${c1}cxOdc${c2},,,,,,,${c1}dKl
+${c1}  :xdlc${c2};,,,,${c1}cx0xc${c2},,,,,;${c1}oOOl${c2};,,,,;:${c1}coxx
+${c1}      0KOxxdoook0Odclx0Odllodxxk0K,
+${c1}         OxoloddxkkKKOkxxdolldk;
+${c1}           .ko${c2}:,,,,${c1}OK${c2}:,,,;${c1}lx;
+${c1}               ldc${c2},${c1}OK${c2}::${c1}ox
+${c1}                  dKKk
+${c1}                   .,
 EOF
     ;;
         "ArchMerge"*)
