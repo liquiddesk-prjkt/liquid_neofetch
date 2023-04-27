@@ -6118,7 +6118,7 @@ EOF
 
 
     *"Liquid"*)
-        set_colors 4 0 0 4
+        set_colors 7 0 0
         read -rd '' ascii_data <<'EOF'
 ${c1}                   cO
 ${c1}                  cKKk
